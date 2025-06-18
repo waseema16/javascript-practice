@@ -1,41 +1,27 @@
-console.log("waseema");let a=1;
-for (let i = 0; i < 100; i++) {
-    console.log(a+i);
-}
-let obj = {
-    mame:"waseema",
-    role:"programmer",
-    class:"BCA",
-}
-for (const key in obj) {
-
-        const element = obj[key];
-        console.log(key,element)
-}
-for (const char of "waseema") {
-    console.log(char)
-}
-let i=0;
-while (i<5) {
-    console.log(i)
-    i++;
-}
-let s=10;
-do {
-    console.log(s)
-    s++;
-} while (s<6);
-function yes(my) {
-    console.log("Hey" + my + "I am good.")
-    console.log("Hey" + my + "I am not good.")
-    console.log("Hey" + my + "I am is good.")
-    console.log("Hey" + my + "I am was good.")
-}
-yes("saba")
-yes("waseema")
-yes("lubna")
-function sum(a,b) {
-    return a+b
-}
-result =sum(a+b)
-console.log("this is my result",result)
+let age=25;
+const temp=36.3;
+let isage=true;
+let not;
+let novalue=null;
+const names="waseema";
+const student={
+    names:"waseema",
+    age:25,
+    isage:true
+};
+const hobby=["coding","reading","music"];
+const bigNumber=1245678900;
+console.log(age);
+console.log(names);
+console.log(isage);
+console.log(novalue);
+console.log(not);
+console.log(typeof age);
+console.log(typeof names);
+console.log(typeof isage);
+console.log(typeof novalue);
+console.log(typeof not);
+console.log(hobby);
+console.log(bigNumber);
+console.log(typeof hobby);
+console.log(typeof bigNumber);
